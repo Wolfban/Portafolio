@@ -1,6 +1,6 @@
 
   .Header {
-    position: fixed; /* Fija el encabezado */
+    position: fixed; 
     top: 0;
     width: 100%;
     color: #FBB603;
@@ -8,6 +8,6 @@
     color: #FFF9E9;
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    z-index: 1000; /* Asegura que el encabezado esté sobre el contenido */
+    z-index: 1000; 
   }
   
