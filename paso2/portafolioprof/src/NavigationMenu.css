@@ -1,0 +1,60 @@
+/* NavigationMenu.css */
+.NavigationMenu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1000;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.toggleButton {
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #000000; 
+  background-color: transparent; 
+  border: none; 
+}
+
+.menuItems {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItems li {
+  margin-bottom: 10px;
+}
+
+.menuItems a {
+  font-size: 2rem; 
+  color: #000000; 
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+.menuItems a:hover {
+  color: #007bff; 
+}
+
+.menuItems {
+  display: none;
+}
+
+.menuItems.open {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .menuItems {
+    display: none;
+  }
+
+  .menuItems.open {
+    display: block;
+  }
+}

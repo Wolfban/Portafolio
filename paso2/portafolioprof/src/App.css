@@ -1,0 +1,64 @@
+.App {
+  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex: 1;
+  text-align: center;
+  background-color: #FFF9E9;
+ 
+}
+.App p {
+  font-size: 20px;
+}
+
+
+.App-logo {
+ margin-top: 150px;
+  height: 10vmin;
+  pointer-events: painted;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #FBB603;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.aboutme,
+.projects,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.aboutme h2,
+.projects h2,
+.contact h2 {
+  background-color: #FBB603;
+  padding: 10px 20px; /* Ajusta el padding para cubrir solo el texto */
+  border-radius: 10px
+}
