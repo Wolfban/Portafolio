@@ -1,0 +1,14 @@
+.carousel-container {
+    max-width: 800px; 
+    margin: 0 auto; 
+  }
+  
+  .carousel-container .carousel {
+    border-radius: 8px; 
+  }
+  
+  .carousel-container .carousel .slide img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+  }

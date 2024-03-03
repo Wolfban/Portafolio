@@ -51,8 +51,8 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  padding: 20px;
+  height: 80vh;
+ 
 }
 
 .aboutme h2,
@@ -62,3 +62,16 @@ html {
   padding: 10px 20px; /* Ajusta el padding para cubrir solo el texto */
   border-radius: 10px
 }
+.aboutimg, .projectimg, .contactimg {
+  margin-top: 40px;
+   height: 10vmin;
+   pointer-events: painted;
+ }
+
+
+ 
+ @media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+     animation: App-logo-spin infinite 20s linear;
+   }
+ }
