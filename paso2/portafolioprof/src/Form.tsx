@@ -1,5 +1,7 @@
 
 import React, { useRef } from 'react';
+import texto_es from './textos/textosEsp.json';
+import texto_en from './textos/textosEng.json';
 import emailjs from 'emailjs-com';
 import './Form.css';
 
@@ -27,7 +29,7 @@ export const ContactForm = () => {
 
   return (
     <form ref={form} onSubmit={sendEmail}>
-      <label htmlFor="to_name">Nombre</label>
+      <label htmlFor="to_name">{texto_es.Contacto.nombre}</label>
       <input type="text" name="to_name" id="to_name" required />
 
       <label htmlFor="from_name">Email</label>

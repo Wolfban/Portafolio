@@ -1,4 +1,41 @@
 {
-    "titulo": "Hi, Im Esteban Barrera",
-    "descripcion": "I'm a passionate software developer where I have advanced knowledge and practice in different languages such as: Java, SQL, C#, C++, JS, CSS and HTML. practice in different languages such as: Java, SQL, C#, C++, JS, CSS and HTML, I also have a C1 level in English and a certificate from Cambridge University at B2 level. level B2." 
+  
+    
+      "titulo": "About Me",
+      "descripcion": "I am a bachelor student of software engineering, I have advanced knowledge and practice in languages such as Java, SQL, C#, C++, HTML, JS, CSS. I have a C1 degree in English language and a B2 certificate from Cambridge University, I also have a certificate of SCRUM Fundamentals, I also have experience with the fundamentals of programming such as the use of design patterns and Object Oriented Programming.",
+      "button": "Download my CV",
+    "skills": {
+      "titulo_blandas": "Soft Skills",
+      "titulo_tecnicas": "Technical Skills",
+      "tituloContacto": "Contact",
+      "tituloProyecto": "Projects",
+      "habilidades_blandas": [
+        "Leadership",
+        "Assertive communication",
+        "Flexibility",
+        "Initiative",
+        "Teamwork",
+        "Creativity and innovation"
+      ],
+      "habilidades_tecnicas": [
+        "Project management",
+        "languages",
+        "Database management",
+        "Marketing",
+        "Programming",
+        "Computer skills such as hardware and software management.",
+        "Data analysis",
+        "Handling of different programming languages"
+      ]
+    },
+    
+    "Contacto":{
+      "nombre": "Name",
+      "Email": "Email",
+      "Mensaje": "Message"
+
+    }
+  
 }
+  
+  

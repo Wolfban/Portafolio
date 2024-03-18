@@ -6,11 +6,11 @@
   min-height: 100vh;
   text-align: center;
 
-  padding: 10px;
   background-color: #5A5A5A;
  
 }
 .App p {
+  font-family: sans-serif;
   font-size: 20px;
 }
 
@@ -22,11 +22,6 @@
 }
 
 
-.App-link {
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 40px;
-  color: #FFF9E9;
-}
 .social-icon {
   width: 50px;
   height: 50px;
@@ -37,29 +32,52 @@
 .social-icon:hover {
   transform: scale(1.2); 
   cursor: pointer; 
+
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between; 
+  font-size: large;
+  font-family: sans-serif;
+  width: 100%; 
+}
+.skills-container h3{
+  align-items: flex-start;
+  background-color: #FBB630;
+  padding: 10px 20px; 
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.skills-container ul {
+  list-style-type: none;
+  padding: 0;
 }
-html {
-  scroll-behavior: smooth;
+
+.skills-container ul li {
+  margin-bottom: 8px;
 }
 
 .aboutme,
 .projects,
 .contact {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center; 
+  align-items: center; 
+  height: auto;
+  justify-content: flex-start; 
   align-items: center;
-  height: 80vh;
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: left;
+
+  
  
 }
 .aboutme, .contact {
@@ -71,12 +89,14 @@ html {
   align-items: flex-start;
   background-color: #FBB630;
   padding: 10px 20px; 
-  border-radius: 10px
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 .projects h2 {
   background-color: #FFF9E9;
   padding: 10px 20px; 
-  border-radius: 10px
+  border-radius: 10px;
+  margin-bottom: 20px;
 
 }
 .aboutimg, .projectimg, .contactimg {
@@ -87,12 +107,6 @@ html {
  }
 
 
- 
- @media (prefers-reduced-motion: no-preference) {
-   .App-logo {
-     animation: App-logo-spin infinite 20s linear;
-   }
- }
  .scroll-to-top {
   position: fixed;
   bottom: 20px; 
@@ -113,4 +127,56 @@ html {
 
 .scroll-to-top:hover {
   background-color: #DAA520; 
+}
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  padding: 20px;
+}
+.aboutme .content,
+.projects .content,
+.contact .content {
+  max-width: 600px; 
+}
+
+
+.project-card {
+  width: 300px; 
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid #DAA520;
+  border-radius: 5px;
+  background-color: #FFF9E9;
+}
+.aboutme.visible,
+.projects.visible,
+.contact.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.button {
+  display: inline-block;
+  background-color: #FBB630; 
+  border: none;
+  color: white;
+  padding: 15px 25px; 
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s; 
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #DAA520; 
+}
+
+
+.button:active {
+  background-color: #DAA520;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }

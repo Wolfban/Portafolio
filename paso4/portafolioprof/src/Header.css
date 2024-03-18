@@ -1,0 +1,26 @@
+
+  .Header {
+    position: relative; 
+    top: 0;
+    width: 100%;
+    color: #FFF9E9;
+    background-color: #FBB630;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    z-index: 1000; 
+    opacity: 0.9;
+  }
+  .language-switch {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+  
+  .language-switch button {
+    color: #5A5A5A;
+    background-color: #FFF9E9;
+    border: 1px solid #FFF9E9;
+    padding: 5px 10px;
+    cursor: pointer;
+  }

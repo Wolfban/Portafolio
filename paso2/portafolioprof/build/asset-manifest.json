@@ -1,10 +1,8 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.3b7ae513.css",
-    "main.js": "/Portafolio/static/js/main.ab06f0e1.js",
+    "main.css": "/Portafolio/static/css/main.4101ec18.css",
+    "main.js": "/Portafolio/static/js/main.da920dfd.js",
     "static/js/453.9f52c971.chunk.js": "/Portafolio/static/js/453.9f52c971.chunk.js",
-    "static/media/1000_F_218727336_yFWOEXi4dqc01tCWSNZg2JSa0TPHtz4h.jpg": "/Portafolio/static/media/1000_F_218727336_yFWOEXi4dqc01tCWSNZg2JSa0TPHtz4h.788a2645eef61b478229.jpg",
-    "static/media/photo__y.jpg": "/Portafolio/static/media/photo_4916161357213183202_y.d2dd94ea4e18a7ff8ed1.jpg",
     "static/media/icons8-whatsapp.svg": "/Portafolio/static/media/icons8-whatsapp.4f89860bb2288961668af5229f76cc79.svg",
     "static/media/restaurant-menu-svgrepo-com.svg": "/Portafolio/static/media/restaurant-menu-svgrepo-com.5db885389f436bcd529d63aa52cb597e.svg",
     "static/media/Octicons-mark-github.svg": "/Portafolio/static/media/Octicons-mark-github.255db585f8a0eb28a1e4deb91bde207d.svg",
@@ -12,12 +10,12 @@
     "index.html": "/Portafolio/index.html",
     "static/media/user-alt-1-svgrepo-com.svg": "/Portafolio/static/media/user-alt-1-svgrepo-com.077781174fa9863df51f828d8de8fdb8.svg",
     "static/media/iconmonstr-linkedin-3.svg": "/Portafolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.3b7ae513.css.map": "/Portafolio/static/css/main.3b7ae513.css.map",
-    "main.ab06f0e1.js.map": "/Portafolio/static/js/main.ab06f0e1.js.map",
+    "main.4101ec18.css.map": "/Portafolio/static/css/main.4101ec18.css.map",
+    "main.da920dfd.js.map": "/Portafolio/static/js/main.da920dfd.js.map",
     "453.9f52c971.chunk.js.map": "/Portafolio/static/js/453.9f52c971.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b7ae513.css",
-    "static/js/main.ab06f0e1.js"
+    "static/css/main.4101ec18.css",
+    "static/js/main.da920dfd.js"
   ]
 }

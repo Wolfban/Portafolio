@@ -1,12 +1,12 @@
 
   .Header {
     position: relative; 
-    top: 0;
+    top: 10;
     width: 100%;
     color: #FFF9E9;
     background-color: #FBB630;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+    font-family: sans-serif;
+    padding-bottom: 2%;
     z-index: 1000; 
     opacity: 0.9;
   }
@@ -14,13 +14,72 @@
     position: absolute;
     top: 20px;
     right: 20px;
-    z-index: 1000;
+   
   }
   
   .language-switch button {
-    color: #5A5A5A;
-    background-color: #FFF9E9;
-    border: 1px solid #FFF9E9;
+    color: #FFF9E9;
+    background-color: #5A5A5A;
+    
     padding: 5px 10px;
     cursor: pointer;
-  }
+  } 
+.toggleButton {
+  position: absolute;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: #000000; 
+  background-color: transparent; 
+  border: none; 
+}
+
+.menuItems {
+  list-style: none;
+  padding: 10;
+  margin: 0;
+  position: absolute;
+  padding-left: 10%;
+  left: 0; 
+  top: calc(100% + 10px);
+  display: none;
+}
+
+.menuItems li {
+  padding-right: 40px;
+  margin-bottom: 10px;
+}
+
+.menuItems a {
+  border: 3px solid #FBB630;
+  border-radius: 10%;
+  background-color: #FFF9E9;
+  font-size: small;
+  font-family: sans-serif;
+  font-size: 2rem; 
+  color: #5A5A5A;
+  text-decoration: none; 
+  cursor: pointer; 
+}
+
+.menuItems a:hover {
+  color: #FBB630; 
+}
+
+.menuItems {
+  display: none;
+}
+
+.menuItems.open {
+  display: block;
+}
+.NavigationMenu {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 1000;
+  padding: 20px;
+}

@@ -1,0 +1,116 @@
+.App {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+
+  padding: 10px;
+  background-color: #5A5A5A;
+ 
+}
+.App p {
+  font-size: 20px;
+}
+
+.App-logo {
+  align-items: center;
+  height: 150px; 
+  width: 150px; 
+  pointer-events: painted;
+}
+
+
+.App-link {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #FFF9E9;
+}
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  transition: transform 0.3s ease; 
+}
+
+.social-icon:hover {
+  transform: scale(1.2); 
+  cursor: pointer; 
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.aboutme,
+.projects,
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80vh;
+ 
+}
+.aboutme, .contact {
+  background-color: #FFF9E9;
+}
+
+.aboutme h2,
+.contact h2 {
+  align-items: flex-start;
+  background-color: #FBB630;
+  padding: 10px 20px; 
+  border-radius: 10px
+}
+.projects h2 {
+  background-color: #FFF9E9;
+  padding: 10px 20px; 
+  border-radius: 10px
+
+}
+.aboutimg, .projectimg, .contactimg {
+  align-items: flex-start;
+  margin-top: 20px;
+   height: 10vmin;
+   pointer-events: painted;
+ }
+
+
+ 
+ @media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+     animation: App-logo-spin infinite 20s linear;
+   }
+ }
+ .scroll-to-top {
+  position: fixed;
+  bottom: 20px; 
+  right: 20px; 
+  background-color: #FBB630;
+  color: #FFF9E9;
+  font-size: 24px;
+  width: 50px; 
+  height: 50px; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 1000;
+  transition: background-color 0.3s ease; 
+}
+
+.scroll-to-top:hover {
+  background-color: #DAA520; 
+}
