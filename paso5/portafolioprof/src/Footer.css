@@ -1,0 +1,12 @@
+
+.Footer {
+    background-color: #FBB630;
+    color: #5A5A5A;
+    width: 100%;
+    padding: 1px 0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    position: relative; 
+    bottom: 0;
+    left: 0;
+  }
