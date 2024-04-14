@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portafolio/static/css/main.4101ec18.css",
-    "main.js": "/Portafolio/static/js/main.da920dfd.js",
+    "main.css": "/Portafolio/static/css/main.93147ce3.css",
+    "main.js": "/Portafolio/static/js/main.fbd62830.js",
     "static/js/453.9f52c971.chunk.js": "/Portafolio/static/js/453.9f52c971.chunk.js",
     "static/media/icons8-whatsapp.svg": "/Portafolio/static/media/icons8-whatsapp.4f89860bb2288961668af5229f76cc79.svg",
     "static/media/restaurant-menu-svgrepo-com.svg": "/Portafolio/static/media/restaurant-menu-svgrepo-com.5db885389f436bcd529d63aa52cb597e.svg",
@@ -10,12 +10,12 @@
     "index.html": "/Portafolio/index.html",
     "static/media/user-alt-1-svgrepo-com.svg": "/Portafolio/static/media/user-alt-1-svgrepo-com.077781174fa9863df51f828d8de8fdb8.svg",
     "static/media/iconmonstr-linkedin-3.svg": "/Portafolio/static/media/iconmonstr-linkedin-3.27a3f479ca1bbb0ceef19e395081fb94.svg",
-    "main.4101ec18.css.map": "/Portafolio/static/css/main.4101ec18.css.map",
-    "main.da920dfd.js.map": "/Portafolio/static/js/main.da920dfd.js.map",
+    "main.93147ce3.css.map": "/Portafolio/static/css/main.93147ce3.css.map",
+    "main.fbd62830.js.map": "/Portafolio/static/js/main.fbd62830.js.map",
     "453.9f52c971.chunk.js.map": "/Portafolio/static/js/453.9f52c971.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4101ec18.css",
-    "static/js/main.da920dfd.js"
+    "static/css/main.93147ce3.css",
+    "static/js/main.fbd62830.js"
   ]
 }
